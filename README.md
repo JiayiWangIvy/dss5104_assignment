@@ -146,7 +146,7 @@ creditcard.csv
 5. Open and run:
 
 ```text
-ass2_complete.ipynb
+ass2_fraudDetection.ipynb
 ```
 
 Run the notebook from top to bottom so that later modeling sections can reuse variables created in earlier preprocessing and feature-engineering sections.
