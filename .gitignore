@@ -4,5 +4,4 @@ __pycache__/
 .env
 
 creditcard.csv
-ieee-fraud-detection/train_transaction.csv
-ieee-fraud-detection/test_transaction.csv
+ieee-fraud-detection/

@@ -23,13 +23,6 @@ It includes data loading, exploratory data analysis, feature engineering, tempor
 ```text
 .
 ├── ass2_complete.ipynb
-├── creditcard.csv
-├── ieee-fraud-detection/
-│   ├── train_transaction.csv
-│   ├── train_identity.csv
-│   ├── test_transaction.csv
-│   ├── test_identity.csv
-│   └── sample_submission.csv
 └── README.md
 ```
 
@@ -39,6 +32,8 @@ It includes data loading, exploratory data analysis, feature engineering, tempor
 
 The primary dataset is the IEEE-CIS Fraud Detection dataset from Kaggle.
 
+Source: https://www.kaggle.com/competitions/ieee-fraud-detection
+
 Required files:
 
 ```text
@@ -46,11 +41,13 @@ ieee-fraud-detection/train_transaction.csv
 ieee-fraud-detection/train_identity.csv
 ```
 
-The official Kaggle test files are included, but they do not contain the `isFraud` label. Therefore, model evaluation is performed by splitting the labelled training data chronologically.
+The official Kaggle test files can be downloaded from the same source, but they do not contain the `isFraud` label. Therefore, model evaluation is performed by splitting the labelled training data chronologically.
 
 ### Secondary Dataset: Credit Card Fraud
 
 The secondary dataset is the Kaggle Credit Card Fraud dataset.
+
+Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 Current expected path:
 
@@ -172,4 +169,3 @@ The final report should focus on:
 - why AUPRC is more informative than accuracy
 - how threshold choice changes under asymmetric costs
 - whether findings generalise to the secondary Credit Card Fraud dataset
-
