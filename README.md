@@ -13,7 +13,7 @@ This repository contains the code for DSS5104 Assignment 2, focusing on fraud an
 The main notebook is:
 
 ```text
-ass2_complete.ipynb
+ass2_fraudDetection.ipynb
 ```
 
 It includes data loading, exploratory data analysis, feature engineering, temporal splitting, model comparison, threshold analysis, error analysis, and a secondary dataset benchmark.
