@@ -22,7 +22,8 @@ It includes data loading, exploratory data analysis, feature engineering, tempor
 
 ```text
 .
-├── ass2_complete.ipynb
+├── ass2_fraudDetection.ipynb
+├── requirements.txt
 └── README.md
 ```
 
@@ -96,7 +97,7 @@ The notebook compares several types of methods:
 - supervised neural network models with imbalance-aware training
 - secondary-dataset baselines on Credit Card Fraud
 
-The exact model sections are contained in `ass2_complete.ipynb`.
+The exact model sections are contained in `ass2_fraudDetection.ipynb`.
 
 ## Evaluation
 
@@ -125,7 +126,7 @@ This is used to compare the cost-optimal threshold with the F1-optimal threshold
 2. Install the required packages:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn lightgbm torch
+pip install -r requirements.txt
 ```
 
 If `lightgbm` is unavailable, the notebook contains fallback code using scikit-learn models for some sections.
